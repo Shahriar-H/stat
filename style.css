@@ -163,6 +163,13 @@ body {
     font-size: 16px !important;
 }
 
+/* .carousel button{
+    background-color: transparent;
+    opacity: 0;
+} */
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .carousel-caption {
         bottom: 370px;

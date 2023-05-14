@@ -1,81 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<!--divinectorweb.com-->
-
-<head>
-    <meta charset="UTF-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Statistics Club</title>
-    <!-- All CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
-
-<body>
-    <div style="overflow-x: hidden;">
-    <!-- Nave section -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><span class="text-warning">Stat</span>Club</a> <button
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
-                type="button"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Alumni">Alumni</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Members</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Signup</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<?php
+    include('./header.php')
+?>
 
     <!-- Carosel section -->
     <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
-        <div class="carousel-indicators">
-            <button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators"
-                type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1"
-                data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3"
-                data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
-        </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img alt="..." class="d-block w-100" src="images/1.jpg">
                 <div class="carousel-caption">
-                    <h5>Your Dream House</h5>
+                    <h5>True Construction</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt
                         excepturi quas vero.</p>
-                    
+                  
                 </div>
             </div>
             <div class="carousel-item">
                 <img alt="..." class="d-block w-100" src="images/2.jpg">
                 <div class="carousel-caption">
-                    <h5>Always Dedicated</h5>
+                    <h5>True Construction</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt
                         excepturi quas vero.</p>
-                 
+                  
                 </div>
             </div>
             <div class="carousel-item">
@@ -87,11 +39,18 @@
                   
                 </div>
             </div>
-        </div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators"
-            type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span
-                class="visually-hidden">Previous</span></button> <button class="carousel-control-next"
-            data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true"
-                class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+        
+            
     </div>
     
     <!-- about section starts -->
@@ -373,29 +332,6 @@
         </div>
     </section><!-- contact ends -->
 
-
-    <!-- footer starts -->
-    <footer class="bg-dark p-2 text-center">
-        <div class="container">
-            <p class="text-white">Statistics 15batch</p>
-        </div>
-    </footer>
-    <!-- footer ends -->
-
-
-
-    <!-- All Js -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous">
-    </script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-</div>
-</body>
-
-</html>
+<?php
+    include('./footer.php')
+?>
