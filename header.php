@@ -29,30 +29,64 @@
     <div style="overflow-x: hidden;">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="./index.php"><span class="text-warning">Stat</span>Club</a> <button
+                <a class="navbar-brand" href="./index.php">
+                    <img src='./images/logo.png' style='max-width:140px' />
+                </a> <button
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
                     class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
                     type="button"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#Alumni">Alumni</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Members</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./login.php">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./signup.php">Signup</a>
-                        </li>
+                        <div class="nav-item mainMenuItem">
+                            <a class="nav-link">About</a>
+                            <div class="dropDownbOx">
+                               <li><a class="nav-link" href="#Alumni">History</a></li>
+                               <li><a class="nav-link" href="#Alumni">Misson & Vission</a></li>
+                               <li><a class="nav-link" href="#Alumni">Resources</a></li>
+                            </div>
+                        </div>
+
+                        <div class="nav-item mainMenuItem">
+                            <a class="nav-link">People</a>
+                            <div class="dropDownbOx">
+                               <li><a class="nav-link" href="#Alumni">Faculty</a></li>
+                               <li><a class="nav-link" href="#Alumni">Students Advisore</a></li>
+                               <li><a class="nav-link" href="#Alumni">Research Students</a></li>
+                               <li><a class="nav-link" href="#Alumni">Alumni</a></li>
+                            </div>
+                        </div>
+
+                        <div class="nav-item mainMenuItem">
+                            <a class="nav-link">Project & Research</a>
+                            <div class="dropDownbOx">
+                               <li><a class="nav-link" href="#Alumni">Research Area</a></li>
+                               <li><a class="nav-link" href="#Alumni">Current  Research</a></li>
+                               <li><a class="nav-link" href="#Alumni">Publications</a></li>
+                            </div>
+                        </div>
+                        <div class="nav-item mainMenuItem">
+                            <a class="nav-link">Co-Curriculum</a>
+                            <div class="dropDownbOx">
+                               <li><a class="nav-link" href="#Alumni">Sports</a></li>
+                               <li><a class="nav-link" href="#events">Events</a></li>
+                               
+                            </div>
+                        
+                        </div>
+
+                        <div class="nav-item mainMenuItem">
+                            <a class="nav-link">More</a>
+                            <div class="dropDownbOx">
+                               <li><a class="nav-link" href="#Alumni">Blogs</a></li>
+                               <li><a class="nav-link" href="#Alumni">Gallery</a></li>
+                               <li><a class="nav-link" href="#Alumni">Login</a></li>
+                               <li><a class="nav-link" href="#Alumni">Registration</a></li>
+                               
+                            </div>
+                           
+                        </div>
+                        
+                        
                     </ul>
                 </div>
             </div>

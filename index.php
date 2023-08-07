@@ -10,10 +10,44 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+           
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img alt="..." class="d-block w-100" src="images/1.jpg">
+                <img alt="..." class="d-block w-100" src="images/banner/banner (1).jpeg">
+                <div class="carousel-caption">
+                    <h5>True Construction</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt
+                        excepturi quas vero.</p>
+                  
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="images/banner/banner (2).jpeg">
+                <div class="carousel-caption">
+                    <h5>True Construction</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt
+                        excepturi quas vero.</p>
+                  
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="images/banner/banner (3).jpeg">
+                <div class="carousel-caption">
+                    <h5>True Construction</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt
+                        excepturi quas vero.</p>
+                  
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="images/banner/banner (5).jpeg">
                 <div class="carousel-caption">
                     <h5>True Construction</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt
@@ -22,16 +56,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img alt="..." class="d-block w-100" src="images/2.jpg">
-                <div class="carousel-caption">
-                    <h5>True Construction</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt
-                        excepturi quas vero.</p>
-                  
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img alt="..." class="d-block w-100" src="images/3.jpg">
+                <img alt="..." class="d-block w-100" src="images/banner/banner (6).jpeg">
                 <div class="carousel-caption">
                     <h5>True Construction</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt
@@ -57,16 +82,19 @@
     <section class="about section-padding" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-12">
-                    <div class="about-img">
-                        <img data-aos="fade-up" alt="" class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpCKq1XnPYYDaUIlwlsvmLPZ-9-rdK28RToA&usqp=CAU">
+                <div class="col-lg-4 col-md-12 col-12" style='padding:15px'>
+                    <div class="about-img chirmanImg">
+                        <img data-aos="fade-up" alt="" class="img-fluid" src="./images/chirman.jpeg">
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-2 pl-md-5">
                     <div class="about-text">
-                        <h2 data-aos="fade-down">Chairman Sir's<br>
-                            Speech</h2>
-                        <p data-aos="fade-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, labore reiciendis. Assumenda
+                        <h2 data-aos="fade-down" style='line-height:20px'>
+                            <span style='font-weight:700; color:#1e8fb5'>Chairman</span>
+                            <br>
+                            <span style='font-size:18px;font-weight:600'>Speech</span>
+                            </h2>
+                        <p data-aos="fade-left" style='margin-top:20px'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, labore reiciendis. Assumenda
                             eos quod animi! Soluta nesciunt inventore dolores excepturi provident, culpa beatae tempora,
                             explicabo corporis quibusdam corrupti. Autem, quaerat. Assumenda quo aliquam vel, nostrum
                             explicabo ipsum dolor, ipsa perferendis porro doloribus obcaecati placeat natus iste odio
@@ -103,7 +131,7 @@
 
 
     <!-- Events section Starts -->
-    <section class="services section-padding" id="services">
+    <section class="services section-padding" id="events">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
